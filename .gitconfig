@@ -1,0 +1,45 @@
+[user]
+	name = Piotr Opała
+	email = opalapj@gmail.com
+
+[core]
+	editor = vim --nofork  # Linux
+	# editor = notepad  # Windows
+	safecrlf = true
+	autocrlf = input  # Unix/Mac
+	# autocrlf = true  # Windows
+
+[init]
+	defaultBranch = main
+
+[alias]
+    a = add
+    b = branch
+    lb = branch -vv  # (l)ist (b)ranches
+    lba = lb --all  # (l)ist (b)ranches (a)ll
+    co = checkout
+    c = commit
+    ca = c --amend
+    cane = ca --no-edit
+    re = config get --all --show-names --regexp
+    d = diff
+    f = fetch
+    i = init
+    lc = log --graph --format='%h | %as | %Cgreen%s %Cblue[%an] %Creset%d'  # (l)ist (c)ommits
+    lca = lc --all  # (l)ist (c)ommits (a)ll
+    lf = ls-files
+    # lr = ls-remote
+    m = merge
+    p = push
+    r = remote
+    lr = remote -v
+    mr = reset --mixed
+    hr = reset --hard
+    sr = reset --soft
+    s = status
+    sw = switch
+    income = log origin/main ^main
+    outcome = log main ^origin/main
+
+[push]
+	autoSetupRemote = true
