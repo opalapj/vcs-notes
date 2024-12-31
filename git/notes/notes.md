@@ -516,10 +516,19 @@ themeselves deleted those branches:
 
 # Adding local repo to `GitHub`
 
-- create `GitHub` repo using web app or `CLI`:
+## Using `GitHub CLI`
 
-        gh repo create <repo-name> --private
+https://docs.github.com/en/migrations/importing-source-code/using-the-command-line-to-import-source-code/adding-locally-hosted-code-to-github#adding-a-local-repository-to-github-with-github-cli
 
+- create `GitHub` repo and follow interactive prompts:
+
+        gh repo create
+
+## Using `git`
+
+https://docs.github.com/en/migrations/importing-source-code/using-the-command-line-to-import-source-code/adding-locally-hosted-code-to-github#adding-a-local-repository-to-github-using-git
+
+- create `GitHub` repo using web app
 - add `GitHub` repo to remotes:
 
         git remote add origin <repo-url>
