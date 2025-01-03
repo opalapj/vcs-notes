@@ -20,6 +20,11 @@
     >
     > Switch to `main` branch before creation.
 
+# Change default branch
+
+    gh repo edit <repository> --default-branch <branch>
+    gh repo edit opalapj/elixir-in-action --default-branch study
+
 # Resources
 
 https://docs.github.com/en/github-cli
