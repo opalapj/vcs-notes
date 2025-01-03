@@ -333,7 +333,10 @@ automatically.
 - deleting branches:
 
         git branch -d <branch-name>
-        git branch -D <branch-name>
+
+- deleting remote branches:
+
+        git push <remote-alias> -d <branch>
 
 - moving/renaming branch:
 
