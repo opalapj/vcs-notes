@@ -110,12 +110,14 @@ Notes for `git version 2.47.1`.
 
 [`.gitignore`][1] files for different languages.
 
-[1]: https://github.com/github/gitignore
-
 I assume that the best practice to do not keep untracked files. All files
 should be divided into:
 - `tracked` - under version control
 - `ignored` - specified in `.gitignore`
+
+### `.gitignore`
+
+More about [`.gitignore`][2] file, e.g. difference between `*.py` and `/*.py`
 
 ## Adding files to repo
 
@@ -548,9 +550,7 @@ https://docs.github.com/en/migrations/importing-source-code/using-the-command-li
 
 `push access` - read and write access to the project and Git repository.
 
-## [Integration-Manager Workflow][2]
-
-[2]: https://git-scm.com/book/en/v2/Distributed-Git-Distributed-Workflows#wfdiag_b
+## [Integration-Manager Workflow][3]
 
 ![](image-11.png)
 
@@ -681,3 +681,9 @@ https://git-scm.com/book/en/v2
 https://git-scm.com/docs
 
 https://gitimmersion.com/
+
+[1]: https://github.com/github/gitignore
+
+[2]: https://git-scm.com/docs/gitignore
+
+[3]: https://git-scm.com/book/en/v2/Distributed-Git-Distributed-Workflows#wfdiag_b
