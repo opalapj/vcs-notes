@@ -62,6 +62,10 @@ Notes for `git version 2.47.1`.
 
             git config set --global push.autoSetupRemote true
 
+## Authenticate `gh` and `git` with `GitHub`
+
+    gh auth setup-git
+
 ## Help
 
     git <command> -h
