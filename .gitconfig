@@ -1,16 +1,16 @@
 [user]
-	name = Piotr Opała
-	email = opalapj@gmail.com
+    name = Piotr Opała
+    email = opalapj@gmail.com
 
 [core]
-	editor = vim --nofork  # Linux
-	# editor = notepad  # Windows
-	safecrlf = true
-	autocrlf = input  # Unix/Mac
-	# autocrlf = true  # Windows
+    editor = vim --nofork  # Linux
+    # editor = notepad  # Windows
+    # safecrlf = true
+    autocrlf = input  # Unix/Mac
+    # autocrlf = true  # Windows
 
 [init]
-	defaultBranch = main
+    defaultBranch = main
 
 [alias]
     a = add
@@ -42,4 +42,4 @@
     outcome = log main ^origin/main
 
 [push]
-	autoSetupRemote = true
+    autoSetupRemote = true
