@@ -515,6 +515,13 @@ If you want to set upstream:
 > Use `-f/--force` option to force operations like push amended commit or take
 > remote branch `n` commits back.
 
+By default, the git push command doesn’t transfer tags to remote servers. You
+will have to explicitly push tags to a shared server after you have created
+them. This process is just like sharing remote branches — you can run:
+
+    git push origin <tagname>
+    git push origin v1
+
 ## Pruning a remote
 
 If you want to delete local references to branches on remotes that have
