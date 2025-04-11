@@ -550,6 +550,24 @@ https://docs.github.com/en/migrations/importing-source-code/using-the-command-li
  
         git push -u origin main
 
+# Adding local repo to server (generally)
+
+- create bare repo on the server:
+
+        user@server:path\to\bare_repos_dir> git init --bare my_repo.git
+
+- add my_repo.git to remotes:
+
+        git remote add origin user@server:path\to\bare_repos_dir\my_repo.git
+
+- switch to `main` branch:
+
+        git switch main
+
+ - push `main` branch to my_repo.git and set upstream:
+ 
+        git push -u origin main
+
 # Contributing to a project
 
 `push access` - read and write access to the project and Git repository.
