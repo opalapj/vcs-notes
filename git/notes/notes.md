@@ -123,6 +123,18 @@ should be divided into:
 
 More about [`.gitignore`][2] file, e.g. difference between `*.py` and `/*.py`
 
+### Stop tracking the file but keep it in local project directory
+
+1. Remove the file from tracking (but not from disk):
+
+        git rm --cached dir/file.csv
+
+2. Add it to `.gitignore` to prevent future tracking.
+
+3. Commit the changes:
+
+        git commit -m "Stop tracking dir/file.csv and add to .gitignore"
+
 ## Adding files to repo
 
 `git add` is a multipurpose command - you use it to begin tracking new files,
