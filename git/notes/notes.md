@@ -339,6 +339,7 @@ automatically.
 - deleting branches:
 
         git branch -d <branch-name>
+        git branch -d --remotes <remote-alias>/<branch-name>
 
 - deleting remote branches:
 
