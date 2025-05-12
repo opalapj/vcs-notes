@@ -27,8 +27,9 @@
     i = init
     lc = log --graph --format='%h | %as | %Cgreen%s %Cblue[%an] %Creset%d'  # (l)ist (c)ommits
     lca = lc --all  # (l)ist (c)ommits (a)ll
+    income = log origin/main ^main
+    outcome = log main ^origin/main
     lf = ls-files
-    # lr = ls-remote
     m = merge
     p = push
     r = remote
@@ -38,8 +39,7 @@
     sr = reset --soft
     s = status
     sw = switch
-    income = log origin/main ^main
-    outcome = log main ^origin/main
+    t = tag
 
 [push]
     autoSetupRemote = true
