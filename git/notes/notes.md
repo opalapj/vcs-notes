@@ -729,13 +729,15 @@ https://git-scm.com/book/en/v2/GitHub-Contributing-to-a-Project
 
 ![](image-13.png)
 
-# Resources 
+# Resources
 
 https://git-scm.com/book/en/v2
 
 https://git-scm.com/docs
 
 https://gitimmersion.com/
+
+https://opensource.guide/
 
 [1]: https://github.com/github/gitignore
 
