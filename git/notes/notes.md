@@ -444,7 +444,7 @@ You can get the best of both worlds:
 `origin` - default name Git gives to the server you cloned from
 (`clone.defaultRemoteName`).
 
-`remote-tracking branch` - reference to the state of remote branche; name takes
+`remote-tracking branch` - reference to the state of remote branch; name takes
 the form `<remote>`/`<branch>` e.g. `origin`/`main`
 
 `tracking branch` - local branches that have a direct relationship to a remote
