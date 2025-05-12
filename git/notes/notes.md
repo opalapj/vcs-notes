@@ -66,6 +66,12 @@ Notes for `git version 2.47.1`.
 
     gh auth setup-git
 
+or
+
+    gh auth login
+
+https://docs.github.com/en/get-started/git-basics/set-up-git#authenticating-with-github-from-git
+
 ## Help
 
     git <command> -h
