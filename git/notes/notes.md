@@ -118,14 +118,23 @@ https://docs.github.com/en/get-started/git-basics/set-up-git#authenticating-with
 
 ## Ignored and untracked files
 
-[`.gitignore`][1] files for different languages.
-
 I assume that the best practice to do not keep untracked files. All files
 should be divided into:
 - `tracked` - under version control
-- `ignored` - specified in `.gitignore`
+- `ignored` - specified in `.gitignore` and `ignore`
+
+### `ignore`
+
+To always ignore a certain file or directory, add it to a file named ignore
+that's located inside the directory `~/.config/git`. By default, `Git` will
+ignore any files and directories that are listed in the global configuration
+file `~/.config/git/ignore`.
+
+https://docs.github.com/en/get-started/git-basics/ignoring-files#configuring-ignored-files-for-all-repositories-on-your-computer
 
 ### `.gitignore`
+
+[`.gitignore`][1] files for different languages.
 
 More about [`.gitignore`][2] file, e.g. difference between `*.py` and `/*.py`
 
