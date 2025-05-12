@@ -22,7 +22,8 @@
     ca = c --amend
     cane = ca --no-edit
     re = config get --all --show-names --regexp
-    d = diff
+    ld = diff  # (l)ist (d)ifferences
+    lda = diff --cached  # (l)ist (d)ifferences (a)ll
     f = fetch
     i = init
     lc = log --graph --format='%h | %as | %Cgreen%s %Cblue[%an] %Creset%d'  # (l)ist (c)ommits

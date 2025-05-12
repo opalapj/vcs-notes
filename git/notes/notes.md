@@ -674,7 +674,7 @@ resolves it to mean the parent of that commit:
 
 # Aliases
 
-See config file: `%USERPROFILE%\.gitconfig`
+See config file: https://github.com/opalapj/vcs/blob/main/.gitconfig
 
 # Hooks
 
