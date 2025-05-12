@@ -550,13 +550,11 @@ them. This process is just like sharing remote branches — you can run:
     git push origin <tagname>
     git push origin v1
 
-## Pruning a remote
+## Deleting remote branches
 
-If you want to delete local references to branches on remotes that have
-themeselves deleted those branches:
+Delete remote branch:
 
-    git remote prune --dry-run <remote-alias>
-    git remote prune <remote-alias>
+    git push <remote-alias> --delete <remote-branch>
 
 # Adding local repo to `GitHub`
 
