@@ -723,7 +723,7 @@ https://git-scm.com/book/en/v2/GitHub-Contributing-to-a-Project
 - place empty `.gitkeep` file in given directory
 - place `README` with quick note in given directory
 
-## Difference in marging files with small content
+## Difference in merging files with small content
 
 ![](image-12.png)
 
