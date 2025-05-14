@@ -647,6 +647,10 @@ merges locally.
 
 - The `integration manager` pushes merged changes to the `blessed repository`.
 
+## Commit guidelines
+
+https://git-scm.com/book/en/v2/Distributed-Git-Contributing-to-a-Project#_commit_guidelines
+
 # Pull request
 
     git request-pull [-p] <start> <URL> [<end>] 
