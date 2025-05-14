@@ -556,6 +556,11 @@ Delete remote branch:
 
     git push <remote-alias> --delete <remote-branch>
 
+## Change default branch
+
+    cd myrepo.git
+    git symbolic-ref HEAD refs/heads/<branch>
+
 # Adding local repo to `GitHub`
 
 ## Using `GitHub CLI`
