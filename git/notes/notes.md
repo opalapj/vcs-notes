@@ -672,6 +672,10 @@ merges locally.
 
 https://git-scm.com/book/en/v2/Distributed-Git-Contributing-to-a-Project#_commit_guidelines
 
+## Integrating contributed work
+
+https://git-scm.com/book/en/v2/Distributed-Git-Maintaining-a-Project#_integrating_contributed_work
+
 # Pull request
 
     git request-pull [-p] <start> <URL> [<end>] 
