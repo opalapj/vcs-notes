@@ -566,11 +566,27 @@ them. This process is just like sharing remote branches — you can run:
     git push origin <tagname>
     git push origin v1
 
+For pushing all tags at once:
+
+    git push origin --tags
+
 ## Deleting remote branches
 
 Delete remote branch:
 
     git push <remote-alias> --delete <remote-branch>
+
+## Deleting remote tags
+
+Delete remote tag:
+
+    git push <remote-alias> --delete <remote-tag>
+
+## Syncing local tags with remote tags
+
+Sync local tags with remote tags:
+
+    git fetch <remote-alias> --prune --prune-tags
 
 ## Change default branch
 
@@ -675,6 +691,11 @@ https://git-scm.com/book/en/v2/Distributed-Git-Contributing-to-a-Project#_commit
 ## Integrating contributed work
 
 https://git-scm.com/book/en/v2/Distributed-Git-Maintaining-a-Project#_integrating_contributed_work
+
+## Tagging workflow
+
+The correct and standard way is to create tags locally, then push them to the
+bare repository.
 
 # Pull request
 
