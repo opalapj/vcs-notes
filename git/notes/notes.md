@@ -505,6 +505,22 @@ there's an `upstream branch` configured for the current branch.
     git fetch
     git fetch --all
 
+## Creating tracking branch for new remote branch
+
+E.g. there is new branch after fetch called `origin/dev`.
+
+    git switch -c <new-local-branch> <remote-reference>
+    git switch -c dev origin/dev
+
+Branch `dev` should be automatically set up to track `origin/dev`.
+
+Or there could be used `--track` option. The name of the new branch will be
+derived from the remote-tracking branch, by looking at the local part of the
+refspec configured for the corresponding remote.
+
+    git switch --track <remote-reference>
+    git switch --track origin/dev
+
 ## Pulling from a remote
 
 Automatically fetch and then `merge`/`rebase` that remote branch into your
