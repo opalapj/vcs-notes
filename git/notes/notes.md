@@ -103,6 +103,11 @@ https://docs.github.com/en/get-started/git-basics/set-up-git#authenticating-with
 > `git clone` command automatically sets up your local `main` branch to track
 > the remote `main` branch.
 
+> `--depth` options works only with `file://` scheme what is crucial for
+> Windows UNC paths, which are used to access network resources, e.g.
+> when path to git repo is UNC path `\\server\dir\repo.git` only legitimate URL
+> is `file://///server\dir\repo.git` (note 5 slashes after protocol)
+
 ## Creating
 
 - within existing project's directory:
