@@ -338,6 +338,14 @@ default action.
 
 ![](image-7.png)
 
+## Restoring lost files
+
+Restoring lost files e.g. uncommited files deleted using `git reset --hard`:
+
+    git fsck --lost-found
+
+https://stackoverflow.com/a/5788069
+
 # Branching and Merging
 
 A `branch` in Git is simply a lightweight movable pointer to one of 
