@@ -587,6 +587,10 @@ For pushing all tags at once:
 
     git push origin --tags
 
+For pushing up through a given commit:
+
+    git push <remote-alias> <commit>:<remote-branch>
+
 ## Deleting remote branches
 
 Delete remote branch:
