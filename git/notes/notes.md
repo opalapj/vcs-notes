@@ -251,6 +251,10 @@ index):
     > 1. File **is** removed from working directory.
     > 2. File **is** staged for commit.
 
+- removing all untracked files:
+
+        git clean . -f
+
 ## Moving/renaming files 
 
 Move or rename a file, a directory, or a symlink:
