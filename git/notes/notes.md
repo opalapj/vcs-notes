@@ -248,7 +248,7 @@ index):
 
         git rm --cached <pathspec>
     
-    > 1. File **is** removed from working directory.
+    > 1. File **is not** removed from working directory.
     > 2. File **is** staged for commit.
 
 - removing all untracked files:
