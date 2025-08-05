@@ -149,15 +149,22 @@ More about [`.gitignore`][2] file, e.g. difference between `*.py` and `/*.py`
 
 ### Stop tracking the file but keep it in local project directory
 
-1. Remove the file from tracking (but not from disk):
+1. Switch to new branch:
+
+2. Remove the file (or all files) from tracking (but not from disk):
 
         git rm --cached dir/file.csv
+        git rm --cached -r .
 
-2. Add it to `.gitignore` to prevent future tracking.
+3. Add it to `.gitignore` to prevent future tracking.
 
-3. Commit the changes:
+4. Commit the changes:
 
         git commit -m "Stop tracking dir/file.csv and add to .gitignore"
+
+5. Delete `main` branch and rename exclude branch to `main`.
+
+6. Push changes to remote.
 
 ## Adding files to repo
 
