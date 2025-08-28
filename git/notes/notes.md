@@ -94,9 +94,13 @@ https://docs.github.com/en/get-started/git-basics/set-up-git#authenticating-with
 
         git clone --bare <cloned-repo-name> <target-repo-name>
 
-- only specific tag without history:
+- only specific tag without history (e.g. in production server):
 
         git clone --branch <tag> --depth 1 <cloned-repo-name> <target-repo-name>
+
+- only specific branch without history (e.g. in development):
+
+        git clone --branch <branch> --depth 1 <cloned-repo-name> <target-repo-name>
 
 > `git clone` command implicitly adds the `origin` remote for you.
 
