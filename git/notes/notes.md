@@ -191,6 +191,13 @@ to the next commit” rather than “add this file to the project”.
 
         git diff
         git diff --staged
+        git diff <commit1> <commit2>
+        git diff --name-only <commit1> <commit2>
+        git diff HEAD^ HEAD
+
+- show what changed in a commit directly:
+
+        git show <commit>
 
 ## Commiting
 
