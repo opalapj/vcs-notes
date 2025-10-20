@@ -699,18 +699,30 @@ https://docs.github.com/en/migrations/importing-source-code/using-the-command-li
 - A `developer` forks `blessed repository` creating own `public` copy with
 write access.
 
-- A `developer` clones:
-    - own `public` copy...
-        
-        or
+    ```bash
+    $ gh repo fork <blessed repository>
+    ```
 
-    - `blessed repository`...
+- A `developer` clones own `public` copy locally creating own `private` copy.
     
-    ...locally creating own `private` copy.
-    
+    ```bash
+    $ git clone <developer public>
+    ```
+
 - A `developer` creates a descriptive `topic branch` and makes `commits`.
 
+    ```bash
+    $ git switch -c <topic branch>
+    ...changes...
+    $ git add .
+    $ git commit -m 'Add some new feature'
+    ```
+
 - A `developer` pushes to their own `public` copy.
+
+    ```bash
+    $ git push origin <topic branch>
+    ```
 
 - A `developer` sends the `integration manager`:
 
